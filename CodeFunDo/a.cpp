@@ -21,7 +21,7 @@ int main()
 				count++;
 				temp--;
 			}
-			if(temp == 0)
+			if(!temp)
 			{
 				dayno++;
 				temp = k;
