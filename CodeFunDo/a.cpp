@@ -5,7 +5,7 @@ int main()
 {
 	int i,j,t,n,k,p;
 	cin >> t;
-	for(p=0;p<t;p++)
+	for(p=1;p<=t;p++)
 	{
 		cin >> n >> k;
 		int A[n];
@@ -27,6 +27,6 @@ int main()
 				temp = k;
 			}
 		}
-		cout << "Case #" << p+1 << ": " << count << endl;
+		cout << "Case #" << p << ": " << count << endl;
 	}
 }
