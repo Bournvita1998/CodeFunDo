@@ -16,7 +16,7 @@ int main()
 		int dayno = 0;
 		for(i=0;i<n;i++)
 		{
-			if(A[i]-dayno > 0 && temp > 0)
+			if(!(A[i]-dayno) && !(temp))
 			{
 				count++;
 				temp--;
