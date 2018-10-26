@@ -3,12 +3,13 @@ using namespace std;
 
 int main()
 {
-	int i,j,t,n,k;
+	int i,j,t,n,k,p;
 	cin >> t;
-	for(int p=0;p<t;p++)
+	for(p=0;p<t;p++)
 	{
 		cin >> n >> k;
-		int A[n],count = 0,temp = k;
+		int A[n];
+		int count = 0,temp = k;
 		for(i=0;i<n;i++)
 			cin >> A[i];
 		sort(A,A+n);
