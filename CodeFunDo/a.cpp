@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-int main()//code begins here
+int main()
 {
 	int i,j,t,n,k,p;
 	cin >> t;
@@ -29,4 +28,5 @@ int main()//code begins here
 		}
 		cout << "Case #" << p << ": " << count << endl;
 	}
+	return 0;
 }
